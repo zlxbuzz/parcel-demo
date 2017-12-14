@@ -1,0 +1,20 @@
+{
+  "name": "h5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "less": "^2.7.3",
+    "parcel-bundler": "^1.2.0",
+    "parcel-plugin-vue": "^1.0.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "vue-router": "^3.0.1"
+  }
+}
