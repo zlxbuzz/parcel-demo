@@ -7,10 +7,10 @@ const routes = [
     path: "*", redirect: '/index'
   },
   {
-    path: '/detail', component: require('./views/detail.vue')
+    path: '/detail', component: () =>import('./views/detail.vue')
   },
   {
-    path: '/index', component: require('./views/index.vue')
+    path: '/index', component: ()=>import('./views/index.vue')
   }
 ]
 
