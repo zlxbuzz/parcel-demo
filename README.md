@@ -1,3 +1,5 @@
+## parcel目前更新比较频繁，这个例子目前还只是`1.2.0`
+
 `parcel`一个快速，零配置的 Web 应用程序打包工具,这里我介绍下如何和`vue`结合进行开发。具体代码:https://github.com/zlxbuzz/parcel-demo
 
 #### 初始化项目
