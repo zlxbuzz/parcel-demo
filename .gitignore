@@ -1,6 +1,7 @@
 _act*
 *.swp
 *.tmp
+dist/debug
 tmp
 runtime/*
 run/*

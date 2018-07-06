@@ -1,3 +1,4 @@
+import Vue from 'vue/dist/vue.esm.js'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
@@ -7,10 +8,10 @@ const routes = [
     path: "*", redirect: '/index'
   },
   {
-    path: '/detail', component: () =>import('./views/detail.vue')
+    path: '/detail', component: () =>import('./page/detail.vue')
   },
   {
-    path: '/index', component: ()=>import('./views/index.vue')
+    path: '/index', component: ()=>import('./page/index.vue')
   }
 ]
 
